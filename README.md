@@ -13,7 +13,31 @@ pip install pipenv
 Una vez que contamos con la librería anterior, para crear un nuevo entorno de trabajo, dentro de la carpeta del proyecto que vamos a trabajar, instalar la primer librería utilizada ahora intercambiadon el instalador de **Python** `pip` por `pipenv`
 
 ```bash
-pipenv instal django
+pipenv install django
+```
+
+Para desinstalar una dependencia dentro del entorno de trabajo, ejecutar el siguiente comando:
+
+```bash
+pipenv uninstall django
+```
+
+Si queremos instalar una versión en especifico de la librería en nuestro proyecto, ejecutar el siguiente comando:
+
+```bash
+pipenv install requests==2.10.*
+```
+
+Para mostrar todos los paquetes que pueden ser actualizados a una última versión, ejecutar el siguiente comando:
+
+```bash
+pipenv update --outdated
+```
+
+Si quiero actualizar las librerías a las versiones recientes, ejecutar el siguiente comando:
+
+```bash
+pipenv update
 ```
 
 Para ver la ruta donde creo la carpeta del entorno virtual, ejecutar el siguiente comando:
@@ -32,6 +56,24 @@ Para salir del entorno virtual, solo hay que colocar el siguiente comando:
 
 ```bash
 exit
+```
+
+Para que visualizar todas las dependencias que tienes instaladas en el proyecto, ejecutar el siguiente comando:
+
+```bash
+pipenv graph
+```
+
+Si compartimos el proyecto con otras personas, para que ellos instalen todas las paqueterías del entorno virtual, estando dentro de la carpeta donde se encuentran los archivos `Pipfile` y `Pipfile.lock`, ejecutar el siguiente comando:
+
+```bash
+pipenv install
+```
+
+Si queremos que se instalen las versiones especificas de las librerías con las que trabaja el proyecto, para esto hay que ignorar el archivo `Pipfile` y ejecutar el archivo `Pipfile.lock`, para esto hay que ejecutar el siguiente comando:
+
+```bash
+pipenv install --ignore-pipfile
 ```
 
 ## Librerias
