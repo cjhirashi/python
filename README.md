@@ -113,3 +113,11 @@ Instalar las siguientes librerías de forma global para crear paqueterias y subi
 ```bash
 pip install setuptools wheel twine
 ```
+
+### BAC0
+
+Paquete para leer y escribir redes BACnet IP [BAC0](https://pypi.org/project/BAC0/)
+
+```bash
+pip install BAC0
+```
