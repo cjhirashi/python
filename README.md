@@ -98,7 +98,7 @@ pip list
 
 ### Pandas
 
-Librearía para trabajar con procesamiento de datos en diferentes formatos como son **Excel**, **CSV**, **SQL**, **JSON**, entre otros
+Librearía para trabajar con procesamiento de datos en diferentes formatos como son **Excel**, **CSV**, **SQL**, **JSON**, entre otros. Documentación [pandas](https://pypi.org/project/pandas/)
 
 Instalación de libreíra:
 
@@ -108,7 +108,9 @@ pip install pandas
 
 ### Paquetes para publicar paquetes 
 
-Instalar las siguientes librerías de forma global para crear paqueterias y subirlas a [www.pypi.org](https://pypi.org/)
+Instalar las siguientes librerías de forma global para crear paqueterias y subirlas a `Pypi`. Documentación [Pypi](https://pypi.org/)
+
+Instalación de librería:
 
 ```bash
 pip install setuptools wheel twine
@@ -116,7 +118,9 @@ pip install setuptools wheel twine
 
 ### BAC0
 
-Paquete para leer y escribir redes BACnet IP [BAC0](https://pypi.org/project/BAC0/)
+Paquete para leer y escribir redes BACnet IP. Documentación [BAC0](https://pypi.org/project/BAC0/)
+
+Instalación de librería:
 
 ```bash
 pip install BAC0
