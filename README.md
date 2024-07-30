@@ -108,7 +108,7 @@ pip install pandas
 
 ### Paquetes para publicar paquetes 
 
-Instalar las siguientes librerías de forma global para crear paqueterias y subirlas a [Pypi](www.pypi.org)
+Instalar las siguientes librerías de forma global para crear paqueterias y subirlas a [www.pypi.org](https://pypi.org/)
 
 ```bash
 pip install setuptools wheel twine
