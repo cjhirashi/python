@@ -22,6 +22,18 @@ Para ver la ruta donde creo la carpeta del entorno virtual, ejecutar el siguient
 pipenv --venv
 ```
 
+Para activar el entorno virtual, hay que entrar dentro de la carpeta del proyecto donde se creo el entorno virtural y ejecutar el siguiente comando:
+
+```bash
+pipenv shell
+```
+
+Para salir del entorno virtual, solo hay que colocar el siguiente comando:
+
+```bash
+exit
+```
+
 ## Librerias
 
 Para instala una librería, se tiene que ejecutar:
@@ -34,6 +46,12 @@ Para desinstalar una librería, se tiene que ejecutar:
 
 ```bash
 pip uninstall nombre-libreria
+```
+
+Para enlistar librerías instaladas, se tiene que ejecutar
+
+```bash
+pip list
 ```
 
 ### Pandas
