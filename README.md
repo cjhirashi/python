@@ -106,6 +106,16 @@ Instalación de libreíra:
 pip install pandas
 ```
 
+### Openpyxl
+
+Paquete para leer y escribir archivos **Excel**. Documentación [Openpyxl](https://pypi.org/project/openpyxl/)
+
+Instalación de librería:
+
+```bash
+pip install openpyxl
+```
+
 ### Paquetes para publicar paquetes 
 
 Instalar las siguientes librerías de forma global para crear paqueterias y subirlas a `Pypi`. Documentación [Pypi](https://pypi.org/)
